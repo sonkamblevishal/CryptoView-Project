@@ -45,11 +45,13 @@
         width: 40vw;
         margin:  auto;
         margin-top: 2rem;
+        margin-bottom:10rem;
 }
 
 .search_footer{
     margin-top: 70vh;
 }
+
 
 
 @media screen and (max-width: 850px){

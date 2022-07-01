@@ -52,7 +52,7 @@ nav{
 .trending_coin .card{
     position: relative;
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1rem;
     margin: 1rem 5vw;
     min-width:fit-content;
@@ -73,8 +73,8 @@ nav{
 
 .trending_coin .card img{
     position:absolute;
-    top: 0;
-    left: 0;
+    top: 24px;
+    left: 15px;
     width: 2rem;
     padding-top: 0.5rem;
      
@@ -99,9 +99,10 @@ nav{
     padding: 0.5rem 2rem;
     justify-content: space-around;
     font-family: 'Nunito', sans-serif;
-     margin-top: 2rem;
-    margin-bottom: 2rem;
-}
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+
 .features .card{ 
    background-color: rgb(236, 234, 234);
    border-radius: 0.5rem;
@@ -113,11 +114,93 @@ nav{
    transition: 0.25s all;
 
 }
+
+.features_1{
+    background-color: #ffffff;
+    padding: 0.5rem 2rem;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.card_heading{
+    background-color: #cdf1d8;
+    padding: 30px;
+   
+}
+
+    .features_1 .card_1{
+   background-color: rgb(255, 255, 255);
+   border-radius: 0.5rem;
+   text-align: center;
+   padding: 1rem;
+   width: 30vw;
+
+}
+
+.features_1 img {
+     width: 20vw;
+    border-radius: 1.2rem;
+     margin-bottom: 20px;
+  }
+.features_1 img:hover {
+     width: 22vw;
+     border-radius: 1.5rem;
+     cursor: pointer;
+  }
+
 .features > .card:hover {
     position:relative;
     top:-5px;
     left:-5px;
     box-shadow: 7px 7px 0px #005809 ;
+}
+
+
+
+.article{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    padding:34px;
+    margin: 34px;
+    background-color: 	#f8f8ff;
+}
+
+
+.art_1 h3 p{
+    text-align: center;
+    font-size: 1.5rem;
+     
+}
+
+.art_2 h3 p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.art_3 h3 p{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+
+.art_1 h5:hover{
+  font-size: 1.6rem;
+    
+}
+
+.art_1 p{
+    text-align: center;
+}
+
+.art_1  img{
+    margin-left: 70px;
+    width: 20vw;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 
@@ -129,7 +212,7 @@ nav{
 
 .float-right{
     /* float: right; */
-     width: 6rem;
+     /* width: 6rem; */
 }
 
 .ml_1{
@@ -137,7 +220,7 @@ nav{
 }
 
 footer{
-    background-color: #D8F3DC;
+    background-color: #66b972;
     font-family: 'Nunito', sans-serif;
     /* color: #ffffff; */
     text-align: center;
@@ -148,6 +231,15 @@ footer > h3{
     padding-top: 0.5rem;
 }
 
+.footer_icons i:hover{
+    /* color:rgb(219, 255, 219); */
+  cursor:pointer;
+}
+
+.footer_icons a{
+    color: black;
+   text-decoration: none;
+}
 
 @keyframes smooth_scroll{
     from{
@@ -213,4 +305,22 @@ nav h1{
     .features > .card{
         width: initial;
     }
+    .art_1  img{
+    margin-left: -9px;
+    width: 25vw;
+}
+
+.article{
+     width: 100%;
+  
+}
+
+.foot_image{
+display:none;
+
+}
+.foot_image2{
+display:none;
+
+}
 }
